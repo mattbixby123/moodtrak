@@ -29,7 +29,7 @@ export default function Hero() {
       </div>
 
       {/* CALENDAR COMPONENT */}
-      <Calendar />
+      <Calendar demo />
     </div>
   )
 }
