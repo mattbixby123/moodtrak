@@ -1,3 +1,5 @@
+#  A Full stack mood tracking application with Next.JS 14, Firebase and TailwindCSS
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
