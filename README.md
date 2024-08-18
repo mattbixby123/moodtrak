@@ -1,5 +1,16 @@
 #  A Full stack mood tracking application with Next.JS 14, Firebase and TailwindCSS
 
+<!-- DEMO DATA
+{
+  [year]: {
+    [month]: {
+      1: 4,
+      2: 5,
+      3:, 1
+    }
+  }
+} -->
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
