@@ -3,6 +3,7 @@ import React from 'react'
 import Button from './Button';
 import Calendar from './Calendar';
 import Link from 'next/link';
+import CallToAction from './CallToAction';
 const fugaz = Fugaz_One({ subsets: ["latin"], weight: ['400'] });
 
 
@@ -24,14 +25,7 @@ export default function Hero() {
       </p>
 
       {/* SIGN UP/LOG IN BUTTON */}
-      <div className='grid grid-cols-2 gap-4 w-fit mx-auto'>
-        <Link href={'/dashboard'}>
-          <Button text="Sign Up" />
-        </Link>
-        <Link href={'/dashboard'}>
-          <Button text="Login" dark />
-        </Link>
-      </div>
+      <CallToAction />
 
       {/* CALENDAR COMPONENT */}
       <Calendar demo />
