@@ -45,7 +45,7 @@ export default function Calendar(props) {
     }
   }
 
-  console.log('SELECTED MONTH: ', selectedMonth)
+  // console.log('SELECTED MONTH: ', selectedMonth)
   // const year = 2024
   // const month = 'August'
   const monthNow = new Date(selectedYear, monthsArr.indexOf(selectedMonth), 1)
